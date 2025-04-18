@@ -1,3 +1,18 @@
+## **GROUP MEMBERS:**
+
+## 1. Joshua Raphael Gayoba
+
+## 2. Ira Llanto
+
+## 3. Chunsy Pantillo
+
+## 4. Jenny Lou Ortega
+
+## 5. Lesther Quimpan 
+
+## 6. Ira Jane Matucading
+
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
