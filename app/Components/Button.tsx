@@ -2,6 +2,7 @@ import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { RectButton } from 'react-native-gesture-handler';
 import { elevate } from 'react-native-elevate';
+import he from 'he';
 
 interface ButtonProps {
   onPress: () => void;
@@ -57,7 +58,7 @@ const Button = ({ answer, onPress, correct, disabled }: ButtonProps) => {
       ]}
     >
       <Text style={[styles.label, correct && { color: 'green' }]}>
-        {answer}
+        {he.decode(answer)}
       </Text>
     </RectButton>
   );

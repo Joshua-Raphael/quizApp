@@ -1,5 +1,6 @@
 import { View, Text } from 'react-native'
 import React from 'react'
+import he from 'he';
 
 interface QuestionProps {
     questionNr: number;
@@ -28,7 +29,7 @@ const Question = ({question, questionNr} : QuestionProps) => {
             textAlign: 'left',
             fontSize: 16,
           }}>
-              {question}
+              {he.decode(question)}
           </Text>
 
     </View>
